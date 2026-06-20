@@ -1,4 +1,4 @@
-// sw.js - Service Worker para Lecis Nails
+// sw.js - Service Worker para leci's nails
 
 const CACHE_NAME = 'lecisnails-v1';
 const urlsToCache = [
@@ -194,6 +194,6 @@ self.addEventListener('notificationclick', event => {
   );
 });
 
-console.log('✅ Service Worker configurado para Lecis Nails');
+console.log('✅ Service Worker configurado para leci's nails');
 console.log('📦 Cache:', CACHE_NAME);
 console.log('📄 Archivos a cachear:', urlsToCache.length);

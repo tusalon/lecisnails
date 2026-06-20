@@ -1,4 +1,4 @@
-✨ ¡Hola! Tu sistema de reservas para Lecis Nails ya está listo ✨
+✨ ¡Hola! Tu sistema de reservas para leci's nails ya está listo ✨
 
 🌐 URL principal:
 https://tusalon.github.io/lecisnails/
@@ -7,7 +7,7 @@ https://tusalon.github.io/lecisnails/
 
 🔑 Datos de acceso al panel:
 • Usuario: lecisnails
-• Contraseña: lec2026
+• Contraseña: cd /d "C:\Users\RODO\Documents\Rservas.SuperAdmin"
 
 📱 App para clientes (comparte este enlace):
 https://tusalon.github.io/lecisnails/
@@ -17,8 +17,8 @@ https://tusalon.github.io/lecisnails/
 2. Suscríbete al canal: lecisnails
 
 💅 Datos cargados:
-• Tu teléfono: 53495794
-• Tu email: l56412911@gmail.com
+• Tu teléfono: cd /d "C:\Users\RODO\Documents\Rservas.SuperAdmin" dónde la reina eres tú
+• Tu email: update-client-and-apk.bat --target "C:\Users\RODO\Documents\ClientesRservas\arletycamero" --apply
 
 📌 Primeros pasos:
 1. Entra al panel con usuario y contraseña

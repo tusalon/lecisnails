@@ -1,12 +1,12 @@
 // utils/config-negocio.js - VERSIÓN MULTI-TENANT CORREGIDA
-// CLIENTE: Lecis Nails
+// CLIENTE: leci's nails
 
 console.log('🏢 config-negocio.js cargado');
 
 // ============================================
 // 🔥 CONFIGURACIÓN POR CLIENTE - ¡LO ÚNICO QUE CAMBIA!
 // ============================================
-const NEGOCIO_ID_POR_DEFECTO = '11b6279c-ceb4-430d-98d1-addfe73bf01a'; // ID de Lecis Nails
+const NEGOCIO_ID_POR_DEFECTO = '11b6279c-ceb4-430d-98d1-addfe73bf01a'; // ID de leci's nails
 
 // Hacer accesible globalmente
 window.NEGOCIO_ID_POR_DEFECTO = NEGOCIO_ID_POR_DEFECTO;
@@ -201,7 +201,7 @@ window.cargarConfiguracionNegocio = async function(forceRefresh = false) {
  */
 window.getNombreNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.nombre || 'Lecis Nails';
+    return config?.nombre || 'leci\'s nails's nails';
 };
 
 /**
@@ -209,7 +209,7 @@ window.getNombreNegocio = async function() {
  */
 window.getTelefonoDuenno = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.telefono || '53495794';
+    return config?.telefono || 'cd /d "C:\\Users\\RODO\\Documents\\Rservas.SuperAdmin" dónde la reina eres tú';
 };
 
 window.getCodigoPaisNegocio = async function() {
@@ -222,7 +222,7 @@ window.getCodigoPaisNegocio = async function() {
  */
 window.getEmailNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.email || 'l56412911@gmail.com';
+    return config?.email || 'update-client-and-apk.bat --target "C:\\Users\\RODO\\Documents\\ClientesRservas\\arletycamero" --apply';
 };
 
 /**
@@ -254,7 +254,7 @@ window.getHorarioAtencion = async function() {
  */
 window.getMensajeBienvenida = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.mensaje_bienvenida || '¡Bienvenida a Lecis Nails!';
+    return config?.mensaje_bienvenida || '¡Bienvenida a leci\'s nails!'s nails!';
 };
 
 /**
@@ -295,5 +295,5 @@ setTimeout(async () => {
     await window.cargarConfiguracionNegocio();
 }, 500);
 
-console.log('✅ config-negocio.js listo para Lecis Nails');
+console.log('✅ config-negocio.js listo para leci's nails');
 console.log('🏷️  ID configurado:', NEGOCIO_ID_POR_DEFECTO);
