@@ -201,7 +201,7 @@ window.cargarConfiguracionNegocio = async function(forceRefresh = false) {
  */
 window.getNombreNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.nombre || 'leci\'s nails's nails';
+    return config?.nombre || "Leci's Nails";
 };
 
 /**
@@ -209,7 +209,7 @@ window.getNombreNegocio = async function() {
  */
 window.getTelefonoDuenno = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.telefono || 'cd /d "C:\\Users\\RODO\\Documents\\Rservas.SuperAdmin" dónde la reina eres tú';
+    return config?.telefono || '';
 };
 
 window.getCodigoPaisNegocio = async function() {
