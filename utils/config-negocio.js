@@ -254,7 +254,7 @@ window.getHorarioAtencion = async function() {
  */
 window.getMensajeBienvenida = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.mensaje_bienvenida || '¡Bienvenida a leci\'s nails!'s nails!';
+    return config?.mensaje_bienvenida || "¡Bienvenida a Leci's Nails!";
 };
 
 /**
@@ -295,5 +295,5 @@ setTimeout(async () => {
     await window.cargarConfiguracionNegocio();
 }, 500);
 
-console.log('✅ config-negocio.js listo para leci's nails');
+console.log("✅ config-negocio.js listo para Leci's Nails");
 console.log('🏷️  ID configurado:', NEGOCIO_ID_POR_DEFECTO);
